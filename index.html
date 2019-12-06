@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Tracker App</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <div class="main_container">
+            <div class="content__wrapper">
+                <div class="content__left">
+                    <div class="content__left-img">
+                        <img src="images/weight_tracker_icon.png" alt="logo">
+                        <h1>Weight Tracker App</h1>
+                    </div>
+                </div>
+                <div class="content__right">
+                    <h1>Welcome</h1>
+                    <p>We make weight tracking easy. Enter details below to start tracking your weight.</p>
+                    <form action="">
+                        <div class="form__group">
+                            <div class="form__label">
+                                <p>Your Name</p>
+                            </div>
+                            <div class="form__input">
+                                <input type="text" size="30" placeholder="We would want to know your name">
+                            </div>
+                        </div>
+
+                        <!-- <div class="form__group">
+                            <div class="form__label">
+                                <p>Pick your birthday</p>
+                            </div>
+                            <div class="form__input">
+                                <input type="datetime-local" size="30">
+                            </div>
+                        </div> -->
+
+                        <div class="form__group">
+                            <div class="form__label">
+                                <p>Height</p>
+                            </div>
+                            <div class="form__input">
+                                <input type="number" size="30" placeholder="Whats your height, please"> -
+                                <select name="height">
+                                    <option value="ft-in">Ft/in</option>
+                                    <option value="cm">cm</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__label">
+                                <p>Pounds</p>
+                            </div>
+                            <div class="form__input">
+                                <input type="number" size="30" placeholder="How do you weight now"> -
+                                <select name="pounds">
+                                    <option value="lbs">lbs</option>
+                                    <option value="kg">kg</option>
+                                    <option value="st-lb">st-lb</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__label">
+                                <p>Gender</p>
+                            </div>
+                            <div class="form__input">
+                                <input type="radio" name="gender" value="male" checked> Male
+                                <input type="radio" name="gender" value="female"> Female
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <button>Start Tracking</button>
+                        </div>
+                    </form>
+
+                    <p>Existing User? <a href="">Log in</a></p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Log out</a></li>
+            </ul>
+        </footer>
+    </main>
+
+</body>
+</html>
